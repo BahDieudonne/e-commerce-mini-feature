@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Commerce Website</title>
+  <link rel="stylesheet" href="assets/css/index.css">
+  <link rel="stylesheet" href="/fontawesome/css/all.min.css">
+</head>
+<body class="home">
+  <!-- ========== Primary Header ========== -->
+  <header class="primary-header contaner flex">
+    <div class="header-inner-one flex">
+      <div class="logo">
+        <li>E-Commerce</li>
+      </div>
+      <button class="mobile-close-btn" data-visible="false" aria-controls="primary-navigation"><i class="fas fa-times-circle"></i></button>
+      <nav>
+        <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
+          <li><a class="active fs-100 fs-montserrat bold-500" href="./home.html">Home</a></li>
+          <li><a class="fs-100 fs-montserrat bold-500" href="/assets/html/shop.html">Shop</a></li>
+          <li><a class="fs-100 fs-montserrat bold-500" href="./about.html">About Us</a></li>
+          <li><a class="fs-100 fs-montserrat bold-500" href="/assets/html/contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="header-login flex">
+      <p class="fs-100 fs-montserrat bold-500"><a href="assets/html/login.html">Login</a></p>
+      <i class="fas fa-search"></i>
+      <i id="cart-box" aria-controls="cart-icon" class="fas fa-shopping-bag"></i>
+
+      <!-- ============================================== -->
+
+      <!-- ===Cart Box=== -->
+      <div id="cart-icon" data-visible="false"    class="cart-icon">
+        <div class="shopping flex">
+          <p>Shopping Basket</p>
+          <i id="cross-btn" class="fas fa-times"></i>
+        </div>
+        <div class="cart bold-800 flex">
+          <i class="fas fa-shopping-cart"></i>
+          <p>Cart Is Empty</p>
+        </div>
+      </div>
+      <!-- ============================================== -->
+    </div>
+    <div class="mobile-open-btn">
+      <i class="fa fa-align-right"></i>
+    </div>
+  </header>
+
+  <!-- =============== Hero Section =============== -->
+  <main class="hero-section">
+    <div class="heroContent">
+      <h1 class="fs-200 fs-poppins">Beats Solo <br> <span class="big-wireless block lineHeight fs-300 bold-900 fs-poppins">Wireless </span> <br> <span class="text-white uppercase lineHeight2 bold-bolder fs-poppins fs-900">HeadPhone</span></h1>
+      <div class="headPhone">
+        <img src="/Images/Headphone.png" alt="">
+         <!-- <img src="./Images/pngegg (2).png" alt=""> -->
+      </div>
+    </div>
+    <div class="hero-inner flex">
+      <div>
+        <button class="large-btn bg-red text-white fs-poppins fs-50">Shop By Category</button>
+      </div>
+      <div class="hero-info">
+        <h4 class="fs-puppins">Description</h4>
+        <p class="fs-puppins">Enjoy Hi-Fi sound, Bluetooth 5.3, 40-hour battery, fast charging, noise isolation, and built-in mic. Lightweight & comfortable for all-day use! 🎧🚀</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- =============== Product Section =============== -->
+  <section class="product-section">
+    <!-- =============== Product1 =============== -->
+    <div class="category bg-black grid">
+      <div class="cat-info">
+        <h3 class="text-white fs-50 fs-poppins">Enjoy <span class="block fs-300 fs-poppins">With </span> <span class="earphone uppercase fs-400 fs-poppins bold-900 lineHeight">Earphone</span></h3>
+        <button class="product-btn large-btn text-white bg-red fs-poppins">Browse</button>
+      </div>
+      <div class="product-img1">
+        <img src="/Images/Earphones_.png" alt="">
+      </div>
+    </div>
+    <!-- =============== Product2 =============== -->
+    <div class="category bg-yellow grid">
+      <div class="cat-info">
+        <h3 class="text-white fs-50 fs-poppins">Enjoy <span class="block fs-300 fs-poppins">With </span> <span class="earphone uppercase fs-400 fs-poppins bold-900 lineHeight">smart watch</span></h3>
+        <button class="product-btn large-btn text-yellow bg-white fs-poppins">Browse</button>
+      </div>
+      <div class="product-img2">
+        <img src="/Images/Watch (2).png" alt="">
+      </div>
+    </div>
+    <!-- =============== Product3 =============== -->
+    <div class="category bg-red grid">
+      <div>
+        <h3 class="text-white fs-50 fs-poppins">Enjoy <span class="block fs-300 fs-poppins">With </span> <span class="earphone uppercase fs-400 fs-poppins bold-900 lineHeight">Laptops</span></h3>
+        <button class="product-btn large-btn text-red bg-white fs-poppins">Browse</button>
+      </div>
+      <div class="product-img3">
+        <img src="/Images/laptop.png" alt="">
+      </div>
+    </div>
+    <!-- =============== Product4 =============== -->
+    <div class="category bg-gray grid">
+      <div>
+        <h3 class="text-black fs-50 fs-poppins">Enjoy <span class="block fs-300 fs-poppins">With </span> <span class="earphone uppercase fs-400 fs-poppins bold-900 lineHeight">playstation 5</span></h3>
+        <button class="product-btn large-btn text-gray bg-white fs-poppins">Browse</button>
+      </div>
+      <div class="product-img4">
+        <img src="/Images/ps5.png" alt="">
+      </div>
+    </div>
+    <!-- =============== Product5 =============== -->
+    <div class="category bg-green grid">
+      <div class="cat-info">
+        <h3 class="text-white fs-50 fs-poppins">Enjoy <span class="block fs-300 fs-poppins">With </span> <span class="earphone uppercase fs-400 fs-poppins bold-900 lineHeight">virtual reality</span></h3>
+        <button class="product-btn large-btn text-green bg-white fs-poppins">Browse</button>
+      </div>
+      <div class="product-img5">
+        <img src="/Images/VR.png" alt="">
+      </div>
+    </div>
+    <!-- =============== Product6 =============== -->
+    <div class="category bg-blue grid">
+      <div class="cat-info">
+        <h3 class="text-white fs-50 fs-poppins">Enjoy <span class="block fs-300 fs-poppins">With </span> <span class="earphone uppercase fs-400 fs-poppins bold-900 lineHeight">Speakers</span></h3>
+        <button class="product-btn large-btn text-blue bg-white fs-poppins">Browse</button>
+      </div>
+      <div class="product-img6">
+        <img src="/Images/speaker (2).png" alt="">
+      </div>
+    </div>
+  </section>
+  <!-- =============== Service Section =============== -->
+  <section class="best-product container">
+    <h2 class="letter-spacing bold-bolder fs-300 fs-poppins">Services</h2>
+  </section>
+  <section class="service-section">
+    <div class="service">
+      <img src="/Images/shipping.png" alt="">
+      <div class="service-info">
+        <h3 class="fs-poppins fs-200">Free Shipping</h3>
+        <p class="fs-poppins fs-50">Free Shipping On All Order</p>
+      </div>
+    </div>
+    <div class="service">
+      <img src="/Images/guarantee.png" alt="">
+      <div class="service-info">
+        <h3 class="fs-poppins fs-200">Money Guarantee</h3>
+        <p class="fs-poppins fs-50">30 Days Money Back</p>
+      </div>
+    </div>
+    <div class="service">
+      <img src="/Images/online-support.png" alt="">
+      <div class="service-info">
+        <h3 class="fs-poppins fs-200">Online Support 24/7</h3>
+        <p class="fs-poppins fs-50">Technical Support 24/7</p>
+      </div>
+    </div>
+    <div class="service">
+      <img src="/Images/payment.png" alt="">
+      <div class="service-info">
+        <h3 class="fs-poppins fs-200">Secure Payment</h3>
+        <p class="fs-poppins fs-50">All Cards Accepted</p>
+      </div>
+    </div>
+  </section>
+  <!-- =============== Featured Section 1 =============== -->
+  <section class="feature-section bg-red">
+    <div class="feature-one grid">
+      <img src="/Images/headPhone3.png" alt="">
+      <p class="text-white uppercase">20% OFF</p>
+      <p class="font-size lineHeight fs-600 lineHeight2 text-white fs-poppins bold-900 uppercase">Fine <span class="smile">Smile</span></p>
+      <p class="text-white fs-poppins fs-50 date">15 Nov To 8 Dec</p>
+    </div>
+    <div class="feature-info">
+      <h2 class="fs-200 text-white fs-poppins bold-500">Beats Solo Air</h2>
+      <p class="fs-poppins fs-300 bold-800 text-white summer">Summer Sale</p>
+      <p class="fs-montserrat text-white fs-50 details">Company that's grown from 270 to 480 employees in the last 12 months.</p>
+      <button class="product-btn large-btn text-red bg-white fs-poppins">Shop</button>
+    </div>
+  </section>
+
+  <!-- =============== Best Seller Products =============== -->
+  <section class="best-product container">
+    <h2 class="letter-spacing bold-bolder fs-300 fs-poppins"> Best Seller Products</h2>
+    <p class="fs-montserrat fs-100">SpeakerThere are many variations passages</p>
+  </section>
+  <section class="best-Seller">
+    <!-- ========== Product 1 ========== -->
+    <div class="product grid">
+      <div class="bg-gray Seller">
+        <img src="/Images/watcch (2).png" alt="">
+        <!-- ================================ -->
+        <div class="product-details grid bg-red">
+          <i class="fas fa-cart-arrow-down text-white"></i>
+          <i class="far fa-heart text-white"></i>
+        </div>
+      </div>
+      <p class="fs-poppins bold-500"> Apple Smart Watch</p>
+      <p fs-poppins bold-500>$995.00</p>
+    </div>
+    <!-- ========== Product 2 ========== -->
+    <div class="product grid">
+      <div class="bg-gray Seller">
+        <!-- <img src="/Images/img3.png" alt=""> -->
+        <img src="/phones/phone (10).png" alt="">
+        <!-- ================================ -->
+        <div class="product-details grid bg-red">
+          <i class="fas fa-cart-arrow-down text-white"></i>
+          <i class="far fa-heart text-white"></i>
+        </div>
+      </div>
+      <p class="fs-poppins bold-500">Samsung Galaxy Z-Flip6</p>
+      <p fs-poppins bold-500>$995.00</p>
+    </div>
+    <!-- ========== Product 3 ========== -->
+    <div class="product grid gift">
+      <div class="bg-gray Seller">
+        <img src="/Gifts/gift (5).jpg" alt="">
+        <!-- ================================ -->
+        <div class="product-details grid bg-red">
+          <i class="fas fa-cart-arrow-down text-white"></i>
+          <i class="far fa-heart text-white"></i>
+        </div>
+      </div>
+      <p class="fs-poppins bold-500">Gifts for your loved </p>
+      <p fs-poppins bold-500>$995.00</p>
+    </div>
+    <!-- ========== Product 4 ========== -->
+    <div class="product grid">
+      <div class="bg-gray Seller">
+        <img src="/Images/img1.png" alt="">
+        <!-- ================================ -->
+        <div class="product-details grid bg-red">
+          <i class="fas fa-cart-arrow-down text-white"></i>
+          <i class="far fa-heart text-white"></i>
+        </div>
+      </div>
+      <p class="fs-poppins bold-500">White EliteBook Tablet 810</p>
+      <p fs-poppins bold-500>$995.00</p>
+    </div>
+    <!-- ========== Product 5 ========== -->
+    <div class="product grid">
+      <div class="bg-gray Seller">
+        <img src="/Images/img1.png" alt="">
+        <!-- ================================ -->
+        <div class="product-details grid bg-red">
+          <i class="fas fa-cart-arrow-down text-white"></i>
+          <i class="far fa-heart text-white"></i>
+        </div>
+      </div>
+      <p class="fs-poppins bold-500">White EliteBook Tablet 810</p>
+      <p fs-poppins bold-500>$995.00</p>
+    </div>
+    <!-- ========== Product 6 ========== -->
+    <div class="product grid">
+      <div class="bg-gray Seller">
+        <img src="/Images/img3.png" alt="">
+        <!-- ================================ -->
+        <div class="product-details grid bg-red">
+          <i class="fas fa-cart-arrow-down text-white"></i>
+          <i class="far fa-heart text-white"></i>
+        </div>
+      </div>
+      <p class="fs-poppins bold-500">White EliteBook Tablet 810</p>
+      <p fs-poppins bold-500>$995.00</p>
+    </div>
+    <!-- ========== Product 7 ========== -->
+    <div class="product grid">
+      <div class="bg-gray Seller">
+        <img src="/Images/img3.png" alt="">
+        <!-- ================================ -->
+        <div class="product-details grid bg-red">
+          <i class="fas fa-cart-arrow-down text-white"></i>
+          <i class="far fa-heart text-white"></i>
+        </div>
+      </div>
+      <p class="fs-poppins bold-500">White EliteBook Tablet 810</p>
+      <p fs-poppins bold-500>$995.00</p>
+    </div>
+    <!-- ========== Product 8 ========== -->
+    <div class="product grid">
+      <div class="bg-gray Seller">
+        <img src="/Images/img1.png" alt="">
+        <!-- ================================ -->
+        <div class="product-details grid bg-red">
+          <i class="fas fa-cart-arrow-down text-white"></i>
+          <i class="far fa-heart text-white"></i>
+        </div>
+      </div>
+      <p class="fs-poppins bold-500">White EliteBook Tablet 810</p>
+      <p fs-poppins bold-500>$995.00</p>
+    </div>
+  </section>
+  <!-- ========== Featured Section 2 ========== -->
+  <section class="feature-section bg-green">
+    <div class="feature-one featured-two grid">
+      <img src="/Images/watchfp2.png" alt="">
+      <p class="text-white uppercase">20% OFF</p>
+      <p class="font-size lineHeight fs-600 lineHeight2 text-white fs-poppins bold-900 uppercase">Fine <span class="smile">Smile</span></p>
+      <p class="text-white fs-poppins fs-50 date">15 Nov To 8 Dec</p>
+    </div>
+    <div class="feature-info">
+      <h2 class="fs-200 text-white fs-poppins bold-500">Beats Solo Air</h2>
+      <p class="fs-poppins fs-300 bold-800 text-white summer">Summer Sale</p>
+      <p class="fs-montserrat text-white fs-50 details">Company that's grown from 270 to 480 employees in the last 12 months.</p>
+      <button class="product-btn large-btn text-green bg-white fs-poppins">Shop</button>
+    </div>
+  </section>
+
+  <!-- ========== Brands Section ========== -->
+  <section class="brands grid">
+    <div>
+      <img src="/Brands/brand (1).png" alt="">
+    </div>
+    <div>
+      <img src="/Brands/brand (2).png" alt="">
+    </div>
+    <div>
+      <img src="/Brands/brand (3).png" alt="">
+    </div>
+    <div>
+      <img src="/Brands/brand (4).png" alt="">
+    </div>
+    <div>
+      <img src="/Brands/brand (5).png" alt="">
+    </div>
+  </section>
+
+  <!-- =============== Footer Section =============== -->
+  <section class="footer grid">
+    <div class="footer-logo grid">
+      <!-- <img src="./Images/logo (1).png" alt=""> -->
+      <p class="fs-montserrat fs-100">There are many variations of lorem ipsum available but the majority have</p>
+      <div class="social-media flex">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-linkedin"></i>
+      </div>
+    </div>
+    <div class="footer-menu grid">
+      <h3 class="fs-poppins fs-200 bold-800">Quick Links</h3>
+      <ul>
+        <li><a class="fs-montserrat text-black fs-100" href="#">Home</a></li>
+        <li><a class="fs-montserrat text-black fs-100" href="#">About</a></li>
+        <li><a class="fs-montserrat text-black fs-100" href="/assets/html/shop.html">Shop</a></li>
+        <li><a class="fs-montserrat text-black fs-100" href="/assets/html/contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="contact grid">
+      <h3 class="fs-poppins fs-200 bold-800">Contact</h3>
+      <p class="fs-montserrat">+237 652 83 99 58 Dieudonne B. Cameroon (Buea), Untarred Malingo.</p>
+    </div>
+    <div class="email grid">
+      <h3 class="fs-poppins fs-200 bold-800">Subscribe To Our Email</h3>
+      <p class="updates fs-poppins fs-300 bold-800">For Latest News & Updates</p>
+      <div class="inputField flex bg-gray">
+        <input type="email" placeholder="Enter Your Email" class="fs-montserrat bg-gray">
+        <button class="bg-red text-white fs-poppins fs-50">Subscribe</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============== CopyRight Section =============== -->
+  <section class="copyRight">
+    <p class="c-font fs-montserrat fs-100">&copy; 2025 eStore.All rights reserved.</p>
+    <p class="fs-montserrat fs-100 text-align p-top">Privacy Policy . Term Conditions</p>
+  </section>
+
+  <script src="assets/js/index.js"></script>
+</body>
+</html>
