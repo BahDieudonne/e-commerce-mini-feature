@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/login.css">
+    <link rel="stylesheet" href="/assets/css/index.css">
+    <link rel="stylesheet" href="/stylesheets/Logins.css">
+    <link rel="stylesheet" href="/assets/css/shop.css">
+    <link rel="stylesheet" href="/fontawesome/css/all.min.css">
+    <title>LOGIN AND REGISTRATION FORM</title> 
+</head>
+<body>
+  <!-- ========== Primary Header ========== -->
+  <header class="primary-header contaner flex">
+    <div class="header-inner-one flex">
+      <div class="logo">
+        <li>E-Commerce</li>
+      </div>
+      <button class="mobile-close-btn" data-visible="false" aria-controls="primary-navigation"><i class="fas fa-times-circle"></i></button>
+      <nav>
+        <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
+          <li><a class="fs-100 fs-montserrat bold-500" href="./home.html">Home</a></li>
+          <li><a class="fs-100 fs-montserrat bold-500" href="./shop.html">Shop</a></li>
+          <li><a class="fs-100 fs-montserrat bold-500" href="./about.html">About Us</a></li>
+          <li><a class="fs-100 fs-montserrat bold-500" href="./contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="header-login flex">
+      <p class="active fs-100 fs-montserrat bold-500"><a href="Login.html">Login</a></p>
+      <i class="fas fa-search"></i>
+      <i id="cart-box" aria-controls="cart-icon" class="fas fa-shopping-bag"></i>
+
+      <!-- ============================================== -->
+
+      <!-- ===Cart Box=== -->
+      <div id="cart-icon" data-visible="false"    class="cart-icon">
+        <div class="shopping flex">
+          <p>Shopping Basket</p>
+          <i id="cross-btn" class="fas fa-times"></i>
+        </div>
+        <div class="cart bold-800 flex">
+          <i class="fas fa-shopping-cart"></i>
+          <p>Cart Is Empty</p>
+        </div>
+      </div>
+      <!-- ============================================== -->
+    </div>
+    <div class="mobile-open-btn">
+      <i class="fa fa-align-right"></i>
+    </div>
+  </header>
+
+  <!-- =======  Feature Section ======= -->
+  <section class="shop-feature bg-gray grid">
+    <div>
+      <p class="fs-montserrat text-black"><a href="home.html">Home </a><span aria-haspopup="true" class="margin"></span><a href="contact.html">Login</a></p>
+    </div>
+    <h2 class="fs-poppins fs-300 bold-700">Login</h2>
+  </section>
+
+  <!-- =======  Form Section ======= -->
+  <div class="form">
+    <div class="container" id="container">
+      <div class="form-container sign-up">
+        <form>
+          <h1>Create Account</h1>
+          <div class="social-icons">
+            <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+            <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+            <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+          <span>or use your email for registration</span>
+          <input type="username" placeholder="username" name="username" required>
+          <input type="email" placeholder="email" name="email" required>
+          <input type="password" placeholder="password" name="password" required>
+          <input type="age" placeholder="age" name="age" required>
+          <button>Submit</button>
+        </form>
+      </div>
+      <div class="form-container sign-in">
+        <form>
+          <h1>Sign In</h1>
+          <div class="social-icons">
+            <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+            <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+            <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+          <span>or use your email password</span>
+          <input type="email" placeholder="Email" required>
+          <input type="password" placeholder="Password" required>
+          <a href="#">Forgot Your Password?</a>
+          <button>Sign In</button>
+        </form>
+      </div>
+      <div class="toggle-container">
+        <div class="toggle">
+          <div class="toggle-panel toggle-left">
+            <h1>Welcome Back</h1>
+            <p>Enter your Personal details to use all of site features</p>
+            <button class="hidden" id="login">Sign In</button>
+          </div>
+          <div class="toggle-panel toggle-right">
+            <h1>Hello Customer</h1>
+            <p>Register with your Personal details to use all of site features</p>
+            <button class="hidden" id="register">Sign up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="image">
+        <img src="/Images/e-commerce (2).png" alt="">
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== Brands Section ========== -->
+  <section class="brands grid">
+    <div>
+      <img src="/Brands/brand (1).png" alt="">
+    </div>
+    <div>
+      <img src="/Brands/brand (2).png" alt="">
+    </div>
+    <div>
+      <img src="/Brands/brand (3).png" alt="">
+    </div>
+    <div>
+      <img src="/Brands/brand (4).png" alt="">
+    </div>
+    <div>
+      <img src="/Brands/brand (5).png" alt="">
+    </div>
+  </section>
+
+  <!-- =============== Footer Section =============== -->
+  <section class="footer grid">
+    <div class="footer-logo grid">
+      <p class="fs-montserrat fs-100">There are many variations of lorem ipsum available but the majority have</p>
+      <div class="social-media flex">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-linkedin"></i>
+      </div>
+    </div>
+    <div class="footer-menu grid">
+      <h3 class="fs-poppins fs-200 bold-800">Quick Links</h3>
+      <ul>
+        <li><a class="fs-montserrat text-black fs-100" href="#">Home</a></li>
+        <li><a class="fs-montserrat text-black fs-100" href="#">About</a></li>
+        <li><a class="fs-montserrat text-black fs-100" href="#">Shop</a></li>
+        <li><a class="fs-montserrat text-black fs-100" href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="contact grid">
+      <h3 class="fs-poppins fs-200 bold-800">Contact</h3>
+      <p class="fs-montserrat">+237 652 83 99 58 Dieudonne B. Cameroon (Buea), Untarred Malingo.</p>
+    </div>
+    <div class="email grid">
+      <h3 class="fs-poppins fs-200 bold-800">Subscribe To Our Email</h3>
+      <p class="updates fs-poppins fs-300 bold-800">For Latest News & Updates</p>
+      <div class="inputField flex bg-gray">
+        <input type="email" placeholder="Enter Your Email" class="fs-montserrat bg-gray">
+        <button class="bg-red text-white fs-poppins fs-50">Subscribe</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============== CopyRight Section =============== -->
+  <section class="copyRight">
+    <p class="c-font fs-montserrat fs-100">&copy; 2025 eStore.All rights reserved.</p>
+    <p class="fs-montserrat fs-100 text-align p-top">Privacy Policy . Term Conditions</p>
+  </section>
+
+  <script src="/assets/js/index.js"></script>
+  <script src="/assets/js/login.js"></script>
+</body>
+</html>
