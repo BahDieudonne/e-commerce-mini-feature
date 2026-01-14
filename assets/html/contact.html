@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Commerce Website</title>
+  <link rel="stylesheet" href="/assets/css/index.css">
+  <link rel="stylesheet" href="/assets/css/contact.css">
+  <link rel="stylesheet" href="/assets/css/shop.css">
+  <link rel="stylesheet" href="/fontawesome/css/all.min.css">
+</head>
+<body class="home">
+  <!-- ========== Primary Header ========== -->
+  <header class="primary-header contaner flex">
+    <div class="header-inner-one flex">
+      <div class="logo">
+        <a href="/pages/home.html"><img src="/Images/logo (1).png" alt=""></a>
+      </div>
+      <button class="mobile-close-btn" data-visible="false" aria-controls="primary-navigation"><i class="fas fa-times-circle"></i></button>
+      <nav>
+        <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
+          <li><a class="fs-100 fs-montserrat bold-500" href="./home.html">Home</a></li>
+          <li><a class="fs-100 fs-montserrat bold-500" href="./shop.html">Shop</a></li>
+          <li><a class="fs-100 fs-montserrat bold-500" href="./about.html">About Us</a></li>
+          <li><a class="active fs-100 fs-montserrat bold-500" href="./contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="header-login flex">
+      <p class="fs-100 fs-montserrat bold-500"><a href="login.html">Login</a></p>
+      <i class="fas fa-search"></i>
+      <i id="cart-box" aria-controls="cart-icon" class="fas fa-shopping-bag"></i>
+
+      <!-- ============================================== -->
+
+      <!-- ===Cart Box=== -->
+      <div id="cart-icon" data-visible="false"    class="cart-icon">
+        <div class="shopping flex">
+          <p>Shopping Basket</p>
+          <i id="cross-btn" class="fas fa-times"></i>
+        </div>
+        <div class="cart bold-800 flex">
+          <i class="fas fa-shopping-cart"></i>
+          <p>Cart Is Empty</p>
+        </div>
+      </div>
+      <!-- ============================================== -->
+    </div>
+    <div class="mobile-open-btn">
+      <i class="fa fa-align-right"></i>
+    </div>
+  </header>
+
+  <!-- =============== Blog Section =============== -->
+
+  <!-- =======  Feature Section ======= -->
+  <section class="shop-feature bg-gray grid">
+    <div>
+      <p class="fs-montserrat text-black"><a href="home.html">Home </a><span aria-haspopup="true" class="margin"></span><a href="contact.html">Contact Us</a></p>
+    </div>
+    <h2 class="fs-poppins fs-300 bold-700">Contact Us</h2>
+  </section>
+
+  <!-- ========== Contact Section ========== -->
+  <section class="contact-us grid">
+    <div class="contact-info">
+      <div>
+        <h1 class="fs-poppins text-red fs-200">Contact Us</h1>
+        <h2 class="fs-poppins text-black fs-400">Get In Touch</h2>
+        <p class="fs-montserrat fs-100">When while lovely valley teems with vapour around mead median the upper impenetrable</p>
+      </div>
+      <form action="https://api.web3forms.com/submit" method="POST" class="contact-form grid">
+        <input type="hidden" name="access_key" value="eb35a1e6-cc88-4c23-892e-105ab590cf25">
+        <div class="grid">
+          <input type="email" name="email" class="bg-gray text-black fs-poppins" placeholder="Enter Email">
+        </div>
+        <div class="grid">
+          <input type="text" name="phone" class="bg-gray text-black fs-poppins" placeholder="Phone Number">
+        </div>
+        <div>
+          <textarea class="bg-gray text-black fs-poppins" rows="10" placeholder="Your Message"></textarea>
+        </div>
+        <div class="contact-btn">
+          <button class="large-btn bg-red text-white fs-poppins"> Submit</button>
+        </div>
+      </form>
+    </div>
+
+    <!-- ========== Maps ========== -->
+    <div>
+      <div class="image">
+        <img src="/Images/e-commerce (2).png" alt="">
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== Support Section ========== -->
+  <section class="support-container grid">
+    <!-- ===============One==================== -->
+    <div class="support-info grid">
+      <div class="support-img grid mail">
+        <img src="/Images/email.png" alt="">
+      </div>
+      <div class="email-info">
+        <p class="fs-100 fs-poppins">
+          <span class="fs-200 fs-poppins bold-700">Email:</span> bahdieudonne49@gmail.com
+        </p>
+        <p class="fs-poppins fs-100">bahdieudonne49@gmail.com</p>
+      </div>
+    </div>
+
+    <!-- ================Two=================== -->
+    <div class="support-info grid">
+      <div class="support-img grid phone">
+        <img src="/Images/call.png" alt="">
+      </div>
+      <div>
+        <p class="fs-100 fs-poppins">
+          <span class="fs-200 fs-poppins bold-700">Phone:</span> +237 652 83 99 58
+        </p>
+        <p class="fs-poppins fs-100">(+237) 652 83 99 58</p>
+      </div>
+    </div>
+
+    <!-- ================Three=================== -->
+    <div class="support-info grid">
+      <div class="support-img grid location">
+        <img src="/Images/location.png" alt="">
+      </div>
+      <div>
+        <p class="fs-100 fs-poppins">
+          <span class="fs-200 fs-poppins bold-700">Address: </span>Cameroon (Buea)
+        </p>
+        <p class="fs-poppins fs-100">Street Untarred Malingo</p>
+      </div>
+    </div>
+
+    <!-- ================Four=================== -->
+    <!-- <div class="support-info grid">
+      <div class="support-img grid">
+        <img src="" alt="">
+      </div>
+      <div>
+        <p class="fs-100 fs-poppins">
+          <span class="fs-200 fs-poppins bold-700">Email</span>bahdieudonne49@gmail.com
+        </p>
+        <p class="fs-poppins fs-100">bahdieudonne49@gmail.com</p>
+      </div>
+    </div> -->
+  </section>
+
+  <!-- ========== Brands Section ========== -->
+  <section class="brands grid">
+    <div>
+      <img src="/Brands/brand (1).png" alt="">
+    </div>
+    <div>
+      <img src="/Brands/brand (2).png" alt="">
+    </div>
+    <div>
+      <img src="/Brands/brand (3).png" alt="">
+    </div>
+    <div>
+      <img src="/Brands/brand (4).png" alt="">
+    </div>
+    <div>
+      <img src="/Brands/brand (5).png" alt="">
+    </div>
+  </section>
+
+  <!-- =============== Footer Section =============== -->
+  <section class="footer grid">
+    <div class="footer-logo grid">
+      <!-- <img src="./Images/logo (1).png" alt=""> -->
+      <p class="fs-montserrat fs-100">There are many variations of lorem ipsum available but the majority have</p>
+      <div class="social-media flex">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-linkedin"></i>
+      </div>
+    </div>
+    <div class="footer-menu grid">
+      <h3 class="fs-poppins fs-200 bold-800">Quick Links</h3>
+      <ul>
+        <li><a class="fs-montserrat text-black fs-100" href="#">Home</a></li>
+        <li><a class="fs-montserrat text-black fs-100" href="#">About</a></li>
+        <li><a class="fs-montserrat text-black fs-100" href="#">Shop</a></li>
+        <li><a class="fs-montserrat text-black fs-100" href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="contact grid">
+      <h3 class="fs-poppins fs-200 bold-800">Contact</h3>
+      <p class="fs-montserrat">+237 652 83 99 58 Dieudonne B. Cameroon (Buea), Untarred Malingo.</p>
+    </div>
+    <div class="email grid">
+      <h3 class="fs-poppins fs-200 bold-800">Subscribe To Our Email</h3>
+      <p class="updates fs-poppins fs-300 bold-800">For Latest News & Updates</p>
+      <div class="inputField flex bg-gray">
+        <input type="email" placeholder="Enter Your Email" class="fs-montserrat bg-gray">
+        <button class="bg-red text-white fs-poppins fs-50">Subscribe</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============== CopyRight Section =============== -->
+  <section class="copyRight">
+    <p class="c-font fs-montserrat fs-100">@ 2025 eStore.All rights reserved.</p>
+    <p class="fs-montserrat fs-100 text-align p-top">Privacy Policy . Term Conditions</p>
+  </section>
+
+  <script src="/assets/js/index.js" defer></script>
+  <script src="/assets/js/shop.js" defer></script>
+</body>
+</html>
